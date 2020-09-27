@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --color-accent: #83677b;
+  --color-accent-dark: #64485c;
+  --color-primary-dark: #2e1114;
+  --color-primary-light: #501b1d;
+  --color-light: #eeeeee;
+  
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  
+  font-family: "Lato", sans-serif;
+  
+}
+
+
+
+h1{
+  font-size: 2rem;
+  color:var(--color-primary-dark);
+}
+
+p {
+   font-size: 1.6rem;
+   color:var(--color-primary-light);
+   margin-top: 2rem;
+   
+}
+
+span {
+   font-size: 1.2rem;
+}
+
+
+
+.button1-primary  {
+   border:none;
+   padding:1.2rem 3.5rem;
+   background-color: var(--color-accent);
+   border-radius: 5px;
+    
+}
+
+.button1-primary:hover{
+   background-color: var(--color-accent-dark);
+   scale:1.05;
+}
+.button1-primary a {
+   text-decoration: none;
+   color:#fff;
+   text-transform: uppercase;
+}
+
+.button1-secondary {
+   border:1px solid var(--color-accent);
+   padding:1.1rem 3.3rem;
+   background-color: var(--color-light);
+   border-radius: 5px;
+}
+
+.button1-secondary:hover {
+   border:2px solid var(--color-accent);
+   scale:1.05;
+}
+.button1-secondary a {
+   text-decoration: none;
+   color:var(--color-accent);
+   text-transform: uppercase;
+   
+}
+
+/*--------------------------HERO SECTION----------------*/
+
+.hero-wrapper1{
+  
+  height: 100%;
+  background: linear-gradient(100deg, #eeeeee 50%, #d6cfcf 50%);
+}
+.hero-wrapper {
+  
+  height: 50rem;
+  padding-left:5rem;
+  
+}
+
+.logo img {
+  height: 5rem;
+  width: 15rem;
+  
+}
+
+
+.header {
+  display: flex;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.nav-bars p {
+  font-size: 1.2rem;
+}
+
+.nav-bar i {
+  font-size: 1.3rem;
+}
+.nav-bars a{
+  text-decoration: none;
+  color:var(--color-primary-light);
+}
+.nav-bar1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-left: -2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.shipping>div {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.shipping>div i {
+  margin-top: 2.2rem;
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  color:#64485c;
+}
+.gift-card>div {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.gift-card>div i {
+  margin-top: 2.2rem;
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  color:var(--color-accent-dark);
+}
+.shipping {
+  display:flex;
+  margin-right: 5rem;
+  padding-left: 5rem;
+  
+}
+
+.gift-card {
+  display: flex;
+  margin-left: 7rem;
+}
+.nav-bar {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav-bar>div {
+  padding-right: 4.5rem;
+}
+
+.links {
+  display: flex;;
+  margin-left: 3rem;
+ 
+}
+
+.icons {
+  display: flex;
+}
+
+.form-control{
+  margin-right: 1rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  outline: none;
+  border:none;
+  width: 15rem;
+  font-size: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+.icons>div {
+  display: flex;
+  
+}
+
+
+.icons>div>p>a {
+  font-size: 1.2rem;
+  
+  padding: 0;
+}
+
+.links li{
+  list-style-type: none;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.links li a {
+  text-decoration: none;
+  color:var(--color-primary-dark);
+}
+
+.links li a:hover {
+  color:var(--color-accent);
+  
+}
+.dropdown {
+  overflow: hidden;
+  padding-right: 3rem;
+  margin-left: -1rem;
+  
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit; 
+  text-transform: uppercase;
+  color:var(--color-primary-dark);
+}
+
+.dropdown .dropbtn:hover {
+  color:var(--color-accent);
+ 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 16rem;
+  z-index: 1;
+  background-color: #fff;
+  
+}
+
+
+.dropdown-content a {
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  color:var(--color-primary-dark);
+  
+}
+.dropdown-content a:hover {
+  color:var(--color-accent);
+} 
+
+.dropdown-content a:hover {
+  background-color: var(--color-light);
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+} 
+
+
+.icons a {
+  font-size: 1.8rem;
+  color: var(--color-accent);
+  padding-right: 5rem;
+  
+}
+
+
+
+.hero-cta {
+ 
+ margin-top: 8rem;
+ display: flex;
+ justify-content: space-between;
+ margin-left: 3rem;
+ 
+  
+}
+
+.hero-cta h1 {
+  font-size: 2.5rem;
+  color:var(--color-primary-dark);
+}
+
+.hero-cta p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.hero-cta img {
+  width: 70%;
+  float:right;
+  margin-right: 4.5rem;
+
+}
+
+
+.hero-img img {
+  float: left;
+  
+  width: 80%;
+  height: 33rem;
+  margin-top: -10rem;
+}
+.buttons1 {
+  margin-top: 2rem;
+}
+
