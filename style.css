@@ -334,6 +334,88 @@ span {
   margin-top: 2rem;
 }
 
+/* - ==================BENEFITS======================= -- */
+
+.benefits {
+  margin: 5rem 0rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.benefits>div{
+  text-align: center;
+}
+.benefits p{
+  padding-bottom: 1rem;
+}
+
+
+/* <!-- ==================LIMITED TIME OFFER=================== --> */
+
+.offer{
+  margin:8rem 5rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eeeeee;
+  padding-bottom: 2rem;
+}
+
+.image img {
+  width: 30rem;
+  height: 20rem;
+  margin-top: 3rem;
+}
+
+
+
+.offer-cta h1 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.price-offer{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.price-offer span {
+  font-size: 1.5rem;
+ 
+}
+
+.timer{
+  display: flex;
+}
+
+.time{
+  margin-right: 3rem;
+  padding-right: 2rem;
+  position: relative;
+  
+}
+
+.time:not(:last-child):after {
+  content: ' ';
+  position: absolute;
+  background-color: #64485c;
+  height: 70%;
+  width: 0.2rem;
+  top: 1.5rem;
+  right:-1rem;
+}
+
+.timer p {
+  font-size: 1.7rem;
+}
+.timer span {
+  text-transform: uppercase;
+}
+
+
+
+
+
+
 /* ====================NEW ARRIVALS========= */
 
 .wrapper-newest{
